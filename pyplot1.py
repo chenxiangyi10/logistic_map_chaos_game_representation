@@ -16,7 +16,7 @@ L0, d = poss0.shape
 L,n,d = poss2.shape
 
 
-fig = plt.figure(figsize=(5.5, 3.6))
+fig = plt.figure(figsize=(7.5, 4.6))
 ax = fig.add_subplot(231)
 ax2 = fig.add_subplot(232)
 ax3 = fig.add_subplot(233)
@@ -33,7 +33,7 @@ print(index)
 for i in range(6):
     axs[i].scatter(poss0[:50000,0], poss0[:50000,1], s = 0.5, color = "blue", marker = "o", alpha = 0.002)
     axs[i].set_xlabel("$x$")
-    axs[i].set_ylabel("$x$")
+    axs[i].set_ylabel("$y$")
     axs[i].scatter(poss2[index[i],:,0], poss2[index[i],:,1], s=0.5, color = "black", marker = "o", alpha = 0.05, label="$μ=%f$"%mu[i])
     axs[i].set_title("$μ=%f$"%mu[i])
     #axs[i].legend(frameon=False, loc = 1)
