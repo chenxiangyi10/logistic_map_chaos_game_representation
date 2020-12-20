@@ -1,3 +1,6 @@
 # logistic_map_chaos_game_representation
 
-plots the logisitc map CGR(chaos game representation)
+Use pyplot to create animated logisitc map CGR(chaos game representation)
+
+
+![Result](dynamic_images.gif)
